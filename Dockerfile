@@ -8,6 +8,8 @@ COPY app /app/
 # Python
 RUN pip install --no-cache-dir -r requirements.txt
 
+WORKDIR /code/
+WORKDIR /code/
 # Build arguments
 ARG BUILD_DATE
 ARG BUILD_REF

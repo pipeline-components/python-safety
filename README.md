@@ -24,7 +24,7 @@ For more information: [pyup safety][pyuplink]
 ```yaml
 python-safety:
   stage: linting
-  image: pipelinecomponents/python-safety:latest
+  image: registry.gitlab.com/pipeline-components/python-safety:latest
   script:
     - safety check --full-report -r requirements.txt
 ```

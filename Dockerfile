@@ -18,7 +18,9 @@ COPY app /app/
 RUN \
     apk add --no-cache build-base && \
 # hadolint ignore=DL3013
-    pip3 install --user --no-cache-dir --prefer-binary -r requirements.txt
+    pip3 install --user --no-cache-dir --prefer-binary  \
+        --find-links https://wheels.home-assistant.io/musllinux/ \
+        -r requirements.txt   
 
 # ==============================================================================
 # Component specific

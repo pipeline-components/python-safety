@@ -13,7 +13,7 @@
 
 ## Usage
 
-The image is for running safety. The image is based on python:3.7-alpine3.8.
+The image is for running safety.
 The variable `SAFETY_API_KEY` can be used to set if you have a paid api key.
 
 For more information: [pyup safety][pyuplink]

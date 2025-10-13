@@ -1,2 +1,2 @@
-safety==3.6.0
+safety==3.6.1
 typer<=0.16 # fix for https://github.com/pyupio/safety/issues/784

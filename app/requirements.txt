@@ -1,2 +1,2 @@
 safety==3.8.1
-typer<=0.26.4 # fix for https://github.com/pyupio/safety/issues/784
+typer<=0.26.7 # fix for https://github.com/pyupio/safety/issues/784
